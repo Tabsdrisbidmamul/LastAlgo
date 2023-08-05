@@ -18,6 +18,8 @@ function binarySearch(values: number[], toFind: number): boolean {
   return false;
 }
 
+
 const arr = [1, 2, 3, 4, 5];
 
 console.log(binarySearch(arr, 5));
+
