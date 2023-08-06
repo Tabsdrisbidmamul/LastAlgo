@@ -15,7 +15,7 @@ function binarySearch(values: number[], toFind: number): boolean {
     }
   } while (low < high);
 
-  return false;
+    return false;
 }
 
 
