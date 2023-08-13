@@ -1,7 +1,7 @@
 const a: number[] = [];
 
 function time(fn: () => void): number {
-  const now = Date.now();
+    const now = Date.now();
   fn();
   return Date.now() - now;
 }
